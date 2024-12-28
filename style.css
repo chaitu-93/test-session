@@ -1,6 +1,38 @@
-h1{
- padding :20px;
- border : 10px dotted black ;
- color: red;
- margin: 20px;
+header{
+    padding: 5px;
+    background-color: yellow;
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+.sec1,.sec1-art2{
+    padding: 5px;
+}
+.sec1-art1{
+    padding: 5px;
+    background-color: yellow;
+    color: green;
+    text-decoration: underline;
+    text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}.sec2,.sec2-art1 input,.sec2-art2 input{
+    width: 100%;
+    padding: 5px;
+}
+button{
+    width: 50%;
+    color: white;
+    background-color: green;
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+body{
+    margin: 5px;
 }

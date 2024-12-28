@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header style="text-align: center;"><h1>Portfolio</h1></header>
     
     <hr>
     <main>
-        <section>
-            <article>
+        <section class="sec1">
+            <article class = "sec1-art1">
         <h1>Introduction</h1>
+        </article>
+        <article class="sec1-art2">
         <p>Hey everyone this is Chaitanya. <br>
            I am a Student at Gpcet Kurnool. <br>
            I am pursuing my Bachelor's Degree in Computer Science and Enginerring - Aritificail Intelligence.
@@ -25,28 +28,25 @@
         </section>
         <section>
             <article>
-            <img  height =100px width =100px src="passport photo.jpeg" alt="">
+            <img  src="passport photo.jpeg" alt="">
             <br>
         </article>
         </section>
 
-        <section>
-        <article>
+        <section class="sec2">
             <form action="">
+                <article class="sec2-art1">
                 <label>Name of the student : </label> <br>
                 <input placeholder="Name" type="text"><br>
+            </article>
+            <article class="sec2-art2">
                 <label>Emaid Id: </label><br>
                 <input placeholder="Email Id" type="email"> <br> <br>
-                <label for="">branch</label>
-                <select name="choose" id="">
-                    <option value="CSE">CSE</option>
-                    <option value="CSE-AI">CSE-AI</option>
-                    <option value="CSE-IOT">CSE-IOT</option>
-                    <option value="ECE">ECE</option>
-                </select>
+            </article>
+            <article >
                 <button type ="submit">submit</button>
+            </article>
             </form>
-        </article>
         </section>
     </main>
     <hr>
